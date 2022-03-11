@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.testcases.TC002_Test">
+        <methods>
+          <include name="create_empty_org_Test"/>
+          <include name="beforeTest"/>
+          <include name="logoutFromApp"/>
+          <include name="tearDown"/>
+          <include name="create_org_Test"/>
+          <include name="makeConnections"/>
+          <include name="aftersuite"/>
+          <include name="logintoApp"/>
+          <include name="aftertest"/>
+          <include name="launchbrowser_driver_Initilize"/>
+        </methods>
+      </class> <!-- com.vtiger.testcases.TC002_Test -->
+      <class name="com.vtiger.testcases.TC001_Test">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="logoutFromApp"/>
+          <include name="tearDown"/>
+          <include name="makeConnections"/>
+          <include name="create_org_Test"/>
+          <include name="aftersuite"/>
+          <include name="logintoApp"/>
+          <include name="aftertest"/>
+          <include name="launchbrowser_driver_Initilize"/>
+        </methods>
+      </class> <!-- com.vtiger.testcases.TC001_Test -->
+      <class name="com.vtiger.testcases.TC003_Test">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="logoutFromApp"/>
+          <include name="create_cont"/>
+          <include name="tearDown"/>
+          <include name="create_cont_withoutdata"/>
+          <include name="makeConnections"/>
+          <include name="aftersuite"/>
+          <include name="logintoApp"/>
+          <include name="aftertest"/>
+          <include name="launchbrowser_driver_Initilize"/>
+        </methods>
+      </class> <!-- com.vtiger.testcases.TC003_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

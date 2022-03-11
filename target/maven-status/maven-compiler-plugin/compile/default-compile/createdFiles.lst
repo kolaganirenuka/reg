@@ -1,0 +1,12 @@
+vtiger\generics\Fileutils.class
+vtiger\generics\IAutoconst.class
+com\vtiger\objectrepo\Createorg.class
+com\vtiger\objectrepo\Login.class
+vtiger\generics\Baseclass.class
+vtiger\generics\Webdriverutilities.class
+com\vtiger\objectrepo\Createcontact.class
+com\vtiger\objectrepo\Home.class
+com\vtiger\objectrepo\Contactinfo.class
+vtiger\generics\Excelutilities.class
+com\vtiger\objectrepo\Orginfo.class
+vtiger\generics\Javautil.class
